@@ -29,6 +29,8 @@ h1{
 .input-button{
     padding: 40px 30px;
     font-size: 50px;
+    border-radius: 10px;
+    border-style: none;
 }
 .button{
     display: flex;
@@ -51,8 +53,8 @@ h1{
     text-align: center;
 }
 #focus{
-    color: teal;
-    background-color: lightgray;
+    color: white;
+    background-color: rgb(159, 206, 244);
     border-color: teal;
 }
 .second-text
@@ -68,20 +70,21 @@ h1{
 #part1{
     background-color: lightcoral;
     padding: 40px 20px;
-    margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 #part2{
     background-color: lightpink;
     padding: 40px 20px;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
 }
 #part3{
     background-color: lightgreen;
     padding: 40px 20px;
     margin-right: 20px;
-    margin-left: 30px;
+    border-radius: 10px;
 }
 .half-width{
     display: flex;
